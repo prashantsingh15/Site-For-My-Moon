@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    background-image: url('18june.jpg'); /* Background image of the moon */
+    background-size: cover; /* Make sure the background covers the entire screen */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background color with some transparency */
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    
+  
+    
+    
+    
+
+}
+
+.navbar ul li a{
+    color: #ccc;
+    display: flex;
+    
+}
+
+ul {
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    gap: 30px;
+    
+    
+}
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Story Section */
+.story .mymoon h1{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-decoration: solid underline chartreuse;
+}
+
+
+.story .mymoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.story-box {
+    margin: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Stylish white background with transparency */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+.story-box h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333; /* Dark text color for contrast */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.story-box hr {
+    border: none;
+    border-top: 2px solid #ccc; /* Stylish horizontal rule */
+    margin: 20px 0;
+}
+
+.story-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Slightly darker text color for readability */
+}
+
+/* Story Section */
+.poem .mypoem h1{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-decoration: solid underline chartreuse;
+}
+
+
+
+.poem-box {
+    margin: 20px;
+    background-color: rgba(26, 166, 150, 0.8); /* Stylish white background with transparency */
+    padding: 30px;
+    
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+
+/* little moon */
+
+.littlemoon {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.para1 {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+
+/* Second poem */
+
+
+
+
+
+
+.poem2-box {
+    margin: 20px;
+    background-color: rgba(47, 144, 189, 0.8); /* Stylish white background with transparency */
+    padding: 30px;
+    
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+.secondpoem {
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.para2 {
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Third Poem */
+
+.poem3-box {
+    margin: 20px;
+    background-color: rgba(200, 186, 204, 0.8); /* Stylish white background with transparency */
+    padding: 30px;
+    
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+.thirdpoem{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.para3 {
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
